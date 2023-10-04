@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "6dbaa728-4e0a-4a98-98a9-85be6fe8286b",
+		"name": "Target API 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30192226"
+	},
+	"item": [
+		{
+			"name": "GET API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

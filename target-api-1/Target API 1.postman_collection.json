@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "af9ee379-8292-4fb1-bd72-642348c35288",
+		"name": "Target API 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30192226"
+	},
+	"item": [
+		{
+			"name": "GET Sources",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?apiKey=ab878de79a6945a9b6d723d6adc6f689",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "ab878de79a6945a9b6d723d6adc6f689"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Top-Headlines",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=us&apiKey=ab878de79a6945a9b6d723d6adc6f689",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "us"
+						},
+						{
+							"key": "apiKey",
+							"value": "ab878de79a6945a9b6d723d6adc6f689"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET articles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=bitcoin&apiKey=ab878de79a6945a9b6d723d6adc6f689",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bitcoin"
+						},
+						{
+							"key": "apiKey",
+							"value": "ab878de79a6945a9b6d723d6adc6f689"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
