@@ -27,7 +27,7 @@
 			"response": []
 		},
 		{
-			"name": "PUT Users",
+			"name": "PUT First_name & last_name",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -57,13 +57,13 @@
 			"response": []
 		},
 		{
-			"name": "PATCH users",
+			"name": "PATCH id",
 			"request": {
 				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"last_name\": \"Jiniti\"\r\n    }",
+					"raw": "{\r\n        \"id\": \"85\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -87,13 +87,13 @@
 			"response": []
 		},
 		{
-			"name": "POST users",
+			"name": "POST alamat",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n            \"id\": 7,\r\n            \"email\": \"walt_breslin@reqres.in\",\r\n            \"first_name\": \"Walt\",\r\n            \"last_name\": \"Breslin\",\r\n            \"avatar\": \"https://reqres.in/img/faces/6-image.jpg\"\r\n        }",
+					"raw": "{\r\n            \"id\": 7,\r\n            \"email\": \"walt_breslin@reqres.in\",\r\n            \"first_name\": \"Walt\",\r\n            \"last_name\": \"Breslin\",\r\n            \"avatar\": \"https://reqres.in/img/faces/6-image.jpg\"\r\n\r\n        }",
 					"options": {
 						"raw": {
 							"language": "json"

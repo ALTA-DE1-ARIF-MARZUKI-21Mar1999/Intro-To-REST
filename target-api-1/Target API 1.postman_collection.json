@@ -34,7 +34,79 @@
 			"response": []
 		},
 		{
-			"name": "GET Top-Headlines",
+			"name": "GET articles Bitcoin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=bitcoin&apiKey=ab878de79a6945a9b6d723d6adc6f689",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bitcoin"
+						},
+						{
+							"key": "apiKey",
+							"value": "ab878de79a6945a9b6d723d6adc6f689"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All articles mentioning Apple from yesterday",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=apple&from=2023-10-03&to=2023-10-03&sortBy=popularity&apiKey=ab878de79a6945a9b6d723d6adc6f689",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "from",
+							"value": "2023-10-03"
+						},
+						{
+							"key": "to",
+							"value": "2023-10-03"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "ab878de79a6945a9b6d723d6adc6f689"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Top Headline country",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -64,12 +136,12 @@
 			"response": []
 		},
 		{
-			"name": "GET articles",
+			"name": "GET Category",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://newsapi.org/v2/everything?q=bitcoin&apiKey=ab878de79a6945a9b6d723d6adc6f689",
+					"raw": "https://newsapi.org/v2/top-headlines?category=business&apiKey=ab878de79a6945a9b6d723d6adc6f689",
 					"protocol": "https",
 					"host": [
 						"newsapi",
@@ -77,12 +149,12 @@
 					],
 					"path": [
 						"v2",
-						"everything"
+						"top-headlines"
 					],
 					"query": [
 						{
-							"key": "q",
-							"value": "bitcoin"
+							"key": "category",
+							"value": "business"
 						},
 						{
 							"key": "apiKey",
